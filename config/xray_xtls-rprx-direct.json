@@ -32,8 +32,7 @@
       "streamSettings": {
         "network": "tcp",
         "security": "tls",
-        "xtlsSettings": {
-          "minVersion": "1.2",
+        "tlsSettings": {
           "certificates": [
             {
               "certificateFile": "/usr/local/etc/xray/self_signed_cert.pem",
